@@ -6,6 +6,7 @@ import random
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
 
+nltk.data.path.append('./nltk_data/')
 lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
 
