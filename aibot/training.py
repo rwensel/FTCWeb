@@ -9,6 +9,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import SGD
 
 lemmatizer = WordNetLemmatizer()
+nltk.data.path.append('./nltk_data/')
 
 intents = json.loads(open('intents.json').read())
 
