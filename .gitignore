@@ -1,4 +1,3 @@
-# custom list
 activate.bat
 
 # Byte-compiled / optimized / DLL files
@@ -63,6 +62,7 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+core/settings.py
 
 # Flask stuff:
 instance/
