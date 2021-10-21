@@ -1,1 +1,1 @@
-web: gunicorn httpPlay.wsgi
+web: gunicorn core.wsgi
