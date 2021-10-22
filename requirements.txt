@@ -1,6 +1,7 @@
 psycopg2 
 whitenoise 
 dj-database-url 
+django-hosts
 pytz 
 asgiref 
 sqlparse 
