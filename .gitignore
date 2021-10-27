@@ -8,7 +8,7 @@ db.sqlite3
 venv/
 .venv/
 .env
-nosetests
+notes
 activate.bat
 
 # Byte-compiled / optimized / DLL files
