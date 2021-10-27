@@ -1,4 +1,15 @@
 activate.bat
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+venv/
+.venv/
+.env
+notes
+activate.bat
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
