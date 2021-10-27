@@ -1,3 +1,0 @@
-pg_dump --username oltsykxeoecxjp --dbname d5qlnqedpg32av --host ec2-52-45-179-101.compute-1.amazonaws.com --port 5432 --file d5qlnqedpg32av_out --no-owner --schema-only --if-exists --clean --verbose --no-privileges
-
-psql --dbname postgresql-convex-64243 --file d5qlnqedpg32av_out --echo-all --echo-errors --host 127.0.0.1 --port 5432 --username postgres
