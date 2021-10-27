@@ -1,11 +1,11 @@
-from django.urls.conf import re_path
+from django.urls.conf import path
 from . import views
-from django.conf import settings
+from settings import django
 from django.conf.urls.static import static
 
 urlpatterns = [
-    re_path(
-        r'^$', views.DefaultTemplateView.as_view(),
+    path(
+        '', views.DefaultTemplateView.as_view(),
         name='media'
     ),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] + static(django.MEDIA_URL, document_root=django.MEDIA_ROOT)
