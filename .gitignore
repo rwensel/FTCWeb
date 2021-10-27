@@ -8,6 +8,8 @@ db.sqlite3
 venv/
 .venv/
 .env
+nosetests
+activate.bat
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
