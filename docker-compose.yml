@@ -1,0 +1,32 @@
+version: "2.2"
+web:
+  build: .
+  environment:
+    MYENV: TFCWeb
+  volumes:
+    - /volume3/servers/FTCWeb:/code
+  networks:
+      default:
+        ipv4_address: 172.18.0.11
+web_migrate:
+  extends:
+    service: web
+  command: python manage.py migrate
+  networks:
+        default:
+          ipv4_address: 172.18.0.12
+web_run:
+  extends:
+    service: web
+  command: python manage.py runserver 0.0.0.0:8000
+  ports:
+    - "8000:8000"
+  networks:
+        default:
+          ipv4_address: 172.18.0.10
+  restart: unless-stopped
+
+networks:
+  default:
+    external: true
+    name: webhost
