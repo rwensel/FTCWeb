@@ -1,6 +1,7 @@
 # FTCWeb
 
-The purpose of this personal project was to teach myself Django, Python, API, machine learning, Facebook Graph, OOP, SQL, webscraping, metadata indexing
+The purpose of this personal project was to teach myself Django, Python, API, machine learning, Facebook Graph, OOP, SQL, webscraping, metadata indexing.
+All of this code is original, however some of it does use tecniques hand picked from other learning materials.
 
 There are really three things within this GIT. One is a dJango personal site/blog handwritten. The 2nd portion is an API created to send 
 requests to the Facebook Graph API to send/retrieve certain information such as login, page chat, posts, submit post, remove post, reactions. This
