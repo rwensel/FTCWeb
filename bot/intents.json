@@ -208,20 +208,6 @@
       ]
     },
     {
-      "tag": "Swearing",
-      "patterns": [
-        "fuck off",
-        "fuck",
-        "twat",
-        "shit"
-      ],
-      "responses": [
-        "Please do not swear, you are turning me on",
-        "How rude, just kidding that was cool as hell",
-        "That is not very nice, and I like it!"
-      ]
-    },
-    {
       "tag": "GoodBye",
       "patterns": [
         "Bye",
